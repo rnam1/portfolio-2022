@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('make-something-fly.css');
 @import url('animated-gradient.css');
 @import url('xtext-stroke.css');
@@ -59,8 +60,8 @@ html {
   --hyperlink-color: #333;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: "Space Grotesk", sans-serif;
-  --heading-typeface: 'Space Grotesk', sans-serif;
+  --body-typeface: "DM Sans", sans-serif;
+  --heading-typeface: 'DM Sans', sans-serif;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
@@ -114,14 +115,14 @@ img {
 
 h1 {
   font-size: 2rem;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin-bottom: 1rem;
   color: var(--baby-powder); 
 }
 
 h2 {
   font-size: 2.25rem;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin-bottom: 1rem;
   color: var(--accent-color); 
 }
@@ -522,3 +523,4 @@ h3 {
       background: var(--color-lightest);
     }
   }
+}
