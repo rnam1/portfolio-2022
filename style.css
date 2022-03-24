@@ -36,7 +36,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("#"), auto !important;
+  cursor: url(""), auto !important;
 }
 
 *,
@@ -407,6 +407,7 @@ p {
 }
 
 .project-image {
+  font-size: 12rem;
   min-height: 30vh;
   display: flex;
   align-items: center;
@@ -424,7 +425,6 @@ p {
 /* Main Project Image Area */
 .project-details {
   width: 100%;
-
   padding: 1rem;
 }
 
@@ -458,17 +458,22 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+  body {
+    background: white;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  body {
+    background: white;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  body {
+    background: white;
   }
 
 h1    {font-size: 4.275rem;
@@ -540,7 +545,7 @@ h3 {
 
 /* Padding around work grid and project page */
 .portfolio, .project-wrapper {
-  padding: .5rem;
+  padding: .5rem
 }
 
   /* Project Page Flex Direction on Large Devices */
@@ -566,7 +571,7 @@ h3 {
   }
 
   .project-image {
-    /* min-height: 100vh; */
+  /* min-height: 100vh */
   }
 
 
@@ -574,11 +579,14 @@ h3 {
 
   /* X-Large devices (large desktops, 1200px and up)*/
   @media (min-width: 1200px) {
- 
+    body {
+      background: white;
+    }
   }
 
   /* XX-Large devices (larger desktops, 1400px and up) */
   @media (min-width: 1400px) {
-
+    body {
+      background: white;
+    }
   }
-}
