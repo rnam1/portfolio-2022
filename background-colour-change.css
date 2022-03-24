@@ -1,0 +1,12 @@
+  
+  .hero {
+    background-size: 600%;
+    animation: fading 60s infinite alternate;
+  }
+  
+  @keyframes fading {
+    0%   { background:  #EBE1A7}
+    50%  { background: #B6DBAD }
+    100%  { background: #AFC6E9 }
+  }
+  
