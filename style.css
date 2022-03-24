@@ -407,12 +407,10 @@ p {
 }
 
 .project-image {
-  font-size: 12rem;
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
 }
 
 .project-logo {
@@ -460,21 +458,16 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  body {
- 
-  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body {
 
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body {
 
   }
 
@@ -547,7 +540,7 @@ h3 {
 
 /* Padding around work grid and project page */
 .portfolio, .project-wrapper {
-  padding: .5rem
+  padding: .5rem;
 }
 
   /* Project Page Flex Direction on Large Devices */
@@ -572,7 +565,6 @@ h3 {
     width: 65vw;
   }
 
-
   .project-image {
     /* min-height: 100vh; */
   }
@@ -582,15 +574,11 @@ h3 {
 
   /* X-Large devices (large desktops, 1200px and up)*/
   @media (min-width: 1200px) {
-    body {
-
-    }
+ 
   }
 
   /* XX-Large devices (larger desktops, 1400px and up) */
   @media (min-width: 1400px) {
-    body {
 
-    }
   }
 }
