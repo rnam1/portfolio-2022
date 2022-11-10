@@ -270,6 +270,10 @@ p {
   background-color: #FFFBF1;
  }
 
+ #forwo {
+  background-color: #FFFBF1;
+ }
+
 
 .logo {
   width: 3rem;
@@ -361,7 +365,8 @@ p {
   padding: 1em;}
 
   .fa {
-    width: 2.25rem;
+    width: 1.25em;
+    display: inline-block;
   }
 
   .copyright {
