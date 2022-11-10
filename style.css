@@ -263,16 +263,9 @@ p {
   align-items: center;
 }
 
-#backyard-brewery {
+#backyard-brewery, #naughty-hildegard, #forwo, #nomu {
  background-color: #FFFBF1;
 }
-#naughty-hildegard {
-  background-color: #FFFBF1;
- }
-
- #forwo {
-  background-color: #FFFBF1;
- }
 
 
 .logo {
@@ -414,6 +407,10 @@ p {
   flex: 1;
   align-items: flex-start;
   padding-top: 1rem;
+}
+
+.navigation-arrow {
+color:#363A3C;
 }
 
 .arrow {
