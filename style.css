@@ -162,6 +162,10 @@ p {
   font-family: 'DM Sans', sans-serif;
 }
 
+p.project-type-award {
+  font-style: italic;
+}
+
 /* Hyperlink Styles */
 a {
   text-decoration: none;
