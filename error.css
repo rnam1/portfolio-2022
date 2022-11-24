@@ -21,7 +21,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color:mintcream;
+    background-color:#FFFBF1;;
     position:relative;
 } 
 
@@ -40,7 +40,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     display: Block;
     background-color: #20817c;
-    color: mintcream;
+    color: #FFFBF1;;
     text-align: center;
     margin: auto;
     padding: 15px 20px;
