@@ -303,6 +303,10 @@ p {
   padding: 1rem;
 }
 
+.hero-illustration {
+  width: 40%;
+}
+
 /* This part isn't required */
 
 .projects {
