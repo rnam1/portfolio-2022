@@ -426,6 +426,7 @@ color:#363A3C;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem 0;
 }
 
 .project-logo {
