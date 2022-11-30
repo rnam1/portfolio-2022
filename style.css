@@ -566,7 +566,7 @@ h3 {
 
 /* Padding around work grid and project page */
 .portfolio, .project-wrapper {
-  padding: .5rem
+  padding: .5rem;
 }
 
   /* Project Page Flex Direction on Large Devices */
@@ -611,3 +611,33 @@ h3 {
       background: white;
     }
   }
+
+    /* XXX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 2460px) {
+      body {
+        background: white;
+      }
+      .grid {
+        grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));    
+        grid-gap: 1rem;
+      }
+
+      .project-aside {
+        font-size: 1.25vh;
+      }
+
+      .project-wrapper {
+        padding: 2vh;
+      }
+
+      h2 {
+        font-size: 1.25vh;
+        line-height: 1.5vh;
+      }
+
+      p {
+        font-size: 1vh;
+        line-height: 2vh;
+      }
+    
+    }
