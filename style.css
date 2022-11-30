@@ -119,10 +119,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.225rem;
   font-family: 'DM Sans', sans-serif;
   margin-bottom: 1rem;
-  color: var(--accent-color);
 }
 
 h3 {
@@ -139,17 +138,17 @@ h4 {
 }
 
 h5 {
-  font-size: 1.225rem;
+  font-size: 1.125rem;
   font-family: 'DM Sans', sans-serif;
   margin-bottom: 1rem;
 }
 
-h5.project-type-description {
+h2.project-type-description {
   color: #20817c;
 }
 
 h6 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: 'DM Sans', sans-serif;
   margin-bottom: 1rem;
 }
@@ -496,7 +495,7 @@ h1    {font-size: 4.275rem;
   }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.225rem;
   }
   
 h3 {
