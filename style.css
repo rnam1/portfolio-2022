@@ -11,7 +11,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('make-something-fly.css');
 @import url('background-colour-change.css');
-@import url('xtext-stroke.css');
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
 
@@ -586,7 +585,7 @@ h3 {
   }
 
   .project-image {
-  /* min-height: 100vh */
+    /* min-height: 100vh */
   }
 
 
