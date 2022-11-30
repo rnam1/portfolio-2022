@@ -12,51 +12,159 @@
   gtag('config', 'G-GRC4D9F6F8');
 </script>
 <link rel="shortcut icon" href="raha-favicon.png">
-  <title>Coming Soon</title>
-  <meta name="description" content="I'm a design and illustration student that will be graduating in 2023.">
+  <title>Raha Namdari’s UX/UI Design and Illustration Portfolio | Vancouver BC</title>
+  <meta name="description" content="A Canadian UX/UI designer and illustrator based in Vancouver, BC. Will be pursuing full-time employment at UX/UI and interactive design agencies and studios.">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <meta property="og:image" content="screenshot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./holding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<script>
-  var balls = document.getElementsByClassName("ball");
-  document.onmousemove = function(){
-    var x = event.clientX * 100 / window.innerWidth + "%";
-    var y = event.clientY * 100 / window.innerHeight + "%";
-    //event.clientX => get the horizontal coordinate of the mouse
-    //event.clientY => get the Vertical coordinate of the mouse
-    //window.innerWidth => get the browser width
-    //window.innerHeight => get the browser height
 
-    for(var i=0;i<2;i++){
-      balls[i].style.left = x;
-      balls[i].style.top = y;
-      balls[i].style.transform = "translate(-"+x+",-"+y+")";
-    }
-  }
-</script>
-
-
-<div class="branding">
-    <a href="work.html">
-      <img src="raha-logo-only-beanie.svg">
-   </a>
-    <div class="eyes">
-      <div class="eye">
-        <div class="ball"></div>
-      </div>
-  
-      <div class="eye">
-        <div class="ball"></div>
-      </div>
+  <section class="hero">
+    <header class="hero-header">
+      <ul class="branding-navigation">
+        <li><a href="index.html" class="custom-navigation">Work</a></li>
+        <li class="logo"><a href="index.html"><img src="raha-logo.svg"/></a></li>
+        <li><a href="#about" class="custom-navigation">About</a></li>
+      </ul>
+    </header>
+    <div class="hero-headline-wrapper">
+      <h1 class="hero-headline">Raha Namdari is a digital designer and illustrator in Vancouver, BC.</h1> 
+      <!-- <figure class="toggleGhost hero-icon" id="btnGhost value="Hide Ghost" onclick="ShowHideDiv(this)" />
+      <img src="mouse-paintbrush-pencil-colour-digital-illustration.png" class="hero-illustration" alt="Illustration of Mouse, Paintbrush, & Pencil Colour.">
+    </figure> -->
     </div>
-    <h1>Raha Namdari</h1>
-  </div>
-  
+    <footer class="hero-footer">
+      <ul class="hero-footer-navigation">
+        <li><a href="https://www.instagram.com/namdari.art/" target="_blank" class="custom-navigation">Instagram</a></li>
+        <li><a href="mailto:rbnamdari@gmail.com" class="custom-navigation">Email</a></li>
+      </ul>
+    </footer>
+  </section>
+  <main class="work-wrapper">
+    <section class="portfolio">
+      <ul class="grid">
+        <li class="work-page-grid-item">
+          <a href="nomu.html">
+          <figure>
+            <img src="raha-namdari--nomu-thumbnail.jpg" alt="Social Entreprise Website">
+          </figure>
+        </a>
+        </li>
+        <li class="work-page-grid-item">
+          <a href="forwo.html">
+            <figure>
+              <img src="forwo-app-thumbnail.jpg" alt="Finance App for Young Adults">
+            </figure>
+          </a>
+          <li class="work-page-grid-item">
+            <a href="reel-youth-film-festival.html">
+            <figure>
+              <img src="raha-namdari--reel-youth-film-festival-thumbnail.jpg" alt="Youth Film Festival Microsite">
+            </figure>
+          </a>
+          </li>
+        </li>
+        <li class="work-page-grid-item">
+          <a href="naughty-hildegard.html">
+          <figure>
+            <img src="naughty-hildegard-thumbnail.jpg" alt="Beer Packaging and Promotion Campaign Illustrations">
+          </figure>
+        </a>
+        </li>
+        <li class="work-page-grid-item">
+          <a href="backyard-brewery.html">
+          <figure>
+            <img src="raha-namdari—backyard-brewery-beer-maple-sap-haskap-berry-oyster-label-design-bottle—mockup-illustration-branding.jpg" alt="Beer Packaging Branding and Illustration">
+          </figure>
+        </a>
+        </li>
+        <li class="work-page-grid-item">
+          <a href="illustrations.html">
+          <figure>
+            <img src="raha-namdari—little-warrior-character-design—digital-illustration.jpg" alt="Character Design Illustration">
+          </figure>
+        </a>
+        </li>
+      </ul>
+    </section>
+  </main>
 
+
+  <footer class="global-footer" id="about">
+    <section id="about-me">
+      <h3 class="footer-heading">Hello!</h3>
+      <p class="footer-copy">I’m Raha, a Canadian-raised Filipino-Iranian UX/UI designer and illustrator.</p>
+      <p class="footer-copy">I am a wearer of many hats, a multidisciplinary designer and a proud owner of an ever-growing beanie collection. I strive to create thoughtful research-based digital products combined with clever illustrations to elevate the user experience and bring joy.</p>
+    </section>
+    <section id="recognition-contact">
+      <div id="recognition">
+        <h3 class="footer-heading">Recognition</h3>
+        <p class="footer-item">
+          <a href="https://www.rgd.ca/2022/09/13/the-works-design-award-for-web-design-nomu-.php" target="_blank">2022 RGD The Works Design Award - Web Design Winner</a>
+        </p>
+                  <p class="footer-item">
+            <a href="https://www.appliedartsmag.com/winners/student/naughty-hildegard-w295/?year=2022" target="_blank">2022 Applied Arts Student Awards - Packaging Design Winner</a>
+          </p>
+          <p class="footer-item">
+            <a href="https://www.ideaschoolofdesign.com/home/2022/2/raha-namdari-idea-grad-2023-wins-bronze-for-graphic-design-in-the-2021-adcc-student-competition-with-naughty-hildegard-illustration" target="_blank">2021 ADCC Student Awards - Bronze Graphic Design</a>
+          </p>
+          <p class="footer-item">
+            <a href="https://www.ideaschoolofdesign.com/home/2021/11/raha-n-idea-grad-2023-wins-top-10-in-capic-rodeo-13-student-illustration-contest-with-irked" target="_blank">2021 CAPIC Rodeo 13 - Top 10 Illustration</a>
+          </p>
+          <p class="footer-item">
+            <a href="https://www.ideaschoolofdesign.com/home/2022/1/raha-n-gains-2021-rgd-frontier-award-for-editorial-design-honourable-mention-with-tarantino-type-book" target="_blank">2021 RGD Frontier Award - Editorial Design Honourable Mention</a>
+          </p>
+          <p class="footer-item">
+            Capilano Dean's List - 2019-2022
+          </p>
+      </div>
+      <div id="contact">
+        <h3 class="footer-heading">Contact</h3>
+        <p class="footer-item">
+          <a href="mailto:rbnamdari@gmail.com">rbnamdari@gmail.com</a>
+        </p>
+        <a href="https://www.instagram.com/namdari.art/" target="_blank" class="fa fa-instagram" style="font-size:25px"></a>
+        <a href="https://www.linkedin.com/in/rahanamdari/" target="_blank" class="fa fa-linkedin" style="font-size:25px"></a>
+        <a href="https://www.behance.net/rahanamdari/" target="_blank" class="fa fa-behance" style="font-size:25px"></a>
+    </section>
+  </footer>
+  <div class="copyright">
+    <p>&copy; 2022 Raha Namdari.</p></div>
+
+
+    <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>  
+
+    <div id="ghostanimation" class="ghost"><img src="raha-namdari-digital-illustration-face.png" /></div>
+    <script type="text/javascript">function ShowHideDiv(btnGhost) {
+      var GhostStyle = document.getElementById("ghostanimation");
+if (btnGhost.value == "Hide Ghost") {
+          GhostStyle.style.display = "none";
+          btnGhost.value = "Play Ghost";
+      } else {
+          GhostStyle.style.display = "block";
+          btnGhost.value = "Hide Ghost";
+      }
+  }</script>   
+  <script type="text/javascript">
+  myID = document.getElementById("myID");
+
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    if (y >= 800) {
+        myID.className = "bottomMenu show"
+    } else {
+        myID.className = "bottomMenu hide"
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);</script> 
+  
 </body>
+
+</html>
